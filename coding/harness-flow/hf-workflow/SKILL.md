@@ -5,7 +5,9 @@ description: HarnessFlow 主工作流入口。凡开发新功能、修改行为�
 
 # HarnessFlow 主工作流
 
-主链内容对齐 Matt Pocock 技能（MIT，已获授权复制），外壳保留进度落盘与 `auto`；并含**产品级架构**阶段。本地叠加了设计层：`hf-ui-design` 内置"先定美学方向 → taste 校准 → DESIGN.md → 截图评审"。
+主链内容对齐 Matt Pocock 技能（MIT，已获授权复制），外壳保留进度落盘与 `auto`；并含**产品级架构**阶段。
+
+`hf-ui-design` 内置设计层：先定美学方向（`ui-ux-pro-max` + `frontend-design`）→ taste 校准 → DESIGN.md → 截图评审。
 
 ## 主链
 
@@ -63,10 +65,12 @@ hf-workflow
 
 ## UI
 
-特性含页面/组件/可视交互时，在 `to-spec`、`implement`、代码评审加载 `hf-ui-design`。设计层要求：
+特性含页面/组件/可视交互时，在 `to-spec`、`implement`、代码评审加载 `hf-ui-design`。
+
+设计层要求：
 
 - 绿地项目缺 `DESIGN.md` 时，由 `hf-ui-design` 在 to-spec 阶段创建
-- UI 实现与评审必须走真实渲染 + 截图评审闭环（详见 `hf-ui-design` 与 `design-rules.md`）
+- UI 实现与评审必须走真实渲染 + 截图评审闭环（详见 `hf-ui-design`）
 
 ## 元技能（按需）
 

@@ -36,8 +36,6 @@
 
 同步会保留每个来源目录中本地维护的 README，最近一次同步的 commit 记录在 `.skills-sync-state.tsv`。
 
-部分来源带本地 **overlay**（见 [skills-sync.tsv](skills-sync.tsv) 第 7 列）：每次同步后会自动重新应用本地增强，不会被上游覆盖。目前 `coding/harness-flow` 带有设计层 overlay（`overlays/harness-flow/`）。
-
 ## coding/ — 编程与工程
 
 按来源分组整理，避免混用；每组技能同源，详见对应子目录 README。
@@ -114,7 +112,7 @@
 | hf-ui-design | UI 设计 |
 | hf-ship | 交付/发布 |
 
-> **设计层（本地增强）**：`hf-ui-design` 已叠加设计层——先定美学方向（`ui-ux-pro-max` 风格匹配 + `frontend-design` 确认）、taste 三旋钮校准、绿地创建 `DESIGN.md`、真实渲染截图评审闭环；桌面应用走 HIG/Fluent 平台规范。细则见 [design-rules.md](coding/harness-flow/design-rules.md)。该增强通过 overlay 维护，`--sync` 后自动重新应用。
+> **设计层**：`hf-ui-design` 内置设计层（维护在 harness-flow 上游仓库，`--sync` 自动跟随）——先定美学方向（`ui-ux-pro-max` 风格匹配 + `frontend-design` 确认）、taste 三旋钮校准、绿地创建 `DESIGN.md`、真实渲染截图评审闭环；桌面应用走 HIG/Fluent 平台规范。细则见 [design-rules.md](coding/harness-flow/hf-ui-design/references/design-rules.md)。
 
 ### coding/ui-ux-pro-max/（7 个）— [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
 

@@ -124,11 +124,6 @@ sync_entry() {
         done
     fi
 
-    # 本地 overlay：同步后再覆盖本地维护的增强文件（不删除上游新增文件）
-    if [ -n "$overlay" ] && [ -d "$SCRIPT_DIR/$overlay" ]; then
-        rsync -a "$SCRIPT_DIR/$overlay/" "$SCRIPT_DIR/$local_dir/"
-        echo "  [overlay] applied $overlay"
-    fi
 }
 
 # ---- 主流程 ----
@@ -137,7 +132,7 @@ sync_entry() {
 changed=0
 synced=()
 
-while IFS=$'\t' read -r local_dir repo ref mode src root_files overlay; do
+while IFS=$'\t' read -r local_dir repo ref mode src root_files; do
     [ -n "$local_dir" ] || continue
     case "$local_dir" in \#*) continue ;; esac
     # 跳过表头行

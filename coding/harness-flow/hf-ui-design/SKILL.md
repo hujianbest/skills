@@ -1,6 +1,6 @@
 ---
 name: hf-ui-design
-description: UI 设计技能。绑定阶段: to-spec、implement、code-review。触发条件: 特性包含用户界面(页面、组件、可视交互)。内置设计层：先定美学方向（调用 frontend-design）、按 taste-skill 三旋钮校准、绿地创建 DESIGN.md、真实渲染截图评审闭环；含反 AI 粗制滥造视觉纪律、交互三态覆盖、可访问性底线、动效性能护栏。详细检查清单见 references/ui-checklist.md，设计层细则见 ../design-rules.md。
+description: UI 设计技能。绑定阶段: to-spec、implement、code-review。触发条件: 特性包含用户界面(页面、组件、可视交互)。内置设计层：先定美学方向（调用 ui-ux-pro-max 风格匹配 + frontend-design 确认）、按 taste-skill 三旋钮校准、绿地创建 DESIGN.md、真实渲染截图评审闭环；含反 AI 粗制滥造视觉纪律、交互三态覆盖、可访问性底线、动效性能护栏。详细检查清单见 references/ui-checklist.md，设计层细则见 references/design-rules.md。
 ---
 
 # UI 设计
@@ -12,7 +12,7 @@ description: UI 设计技能。绑定阶段: to-spec、implement、code-review�
 - 绑定阶段: to-spec、implement、code-review
 - 触发条件: 特性包含用户界面(页面 / 组件 / 可视交互)
 
-## 设计层（本地增强，先于一切视觉工作执行）
+## 设计层（先于一切视觉工作执行）
 
 本技能在进入具体 UI 工作前，必须先过设计层三件事：
 
@@ -31,7 +31,7 @@ description: UI 设计技能。绑定阶段: to-spec、implement、code-review�
 
 - 绿地项目（无既有设计系统 / 无 `DESIGN.md`）必须在 to-spec 阶段创建 `DESIGN.md`：一行品牌立场 + 色彩（含 OKLCH 推导）+ 字体配对 + 间距/圆角/阴影标尺 + 3 条以上禁止项。
 - 有既有 `DESIGN.md` 或设计系统时，先冷读再复用，禁止另起炉灶。
-- 生成与维护参考 `../design-rules.md`（本合集自带）与 `stitch-skill`。
+- 生成与维护参考 `references/design-rules.md` 与 `stitch-skill`。
 
 ## 规格阶段 (to-spec) 规则
 
@@ -71,7 +71,7 @@ description: UI 设计技能。绑定阶段: to-spec、implement、code-review�
 只有单元测试不构成 UI 验证。每个含 UI 的特性必须走：
 
 1. **真实渲染**：启动应用并截图（Web 用浏览器截图，桌面用应用截图），覆盖主页面 + 至少一个三态。
-2. **截图评审**：把截图交给评审，按 `../design-rules.md` 的评审框架逐项过：
+2. **截图评审**：把截图交给评审，按 `references/design-rules.md` 的评审框架逐项过：
    - 方向一致性（是否回到"模板脸"）
    - 排版节奏与字体配对是否成立
    - 间距层次、留白、对齐网格
@@ -94,9 +94,9 @@ description: UI 设计技能。绑定阶段: to-spec、implement、code-review�
 
 ## 评审检查项
 
-- [ ] （规格）已选定单一明确美学方向并写入 spec / DESIGN.md
 - [ ] （规格）UI 决策覆盖三态，视觉决策落实到令牌
 - [ ] （规格）复用设计系统 / `DESIGN.md`，或有充分理由偏离
 - [ ] （规格）排查反粗制滥造硬拒绝项
 - [ ] （代码）无硬编码视觉样式；有落实可访问性的证据
+- [ ] （代码）已完成真实渲染验证；三态与可访问性检查通过
 - [ ] （视觉）已完成真实渲染截图评审，无方向漂移 / 模板脸 / 视觉硬伤

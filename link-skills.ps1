@@ -38,14 +38,14 @@ $root = $PSScriptRoot
 
 $skills = @(
     Get-ChildItem -LiteralPath $root -Directory |
-        Where-Object { $_.Name -notin @('.git', 'overlays') } |
+        Where-Object { $_.Name -ne '.git' } |
         ForEach-Object { Get-ChildItem -LiteralPath $_.FullName -Directory } |
         ForEach-Object { Get-ChildItem -LiteralPath $_.FullName -Directory } |
         Where-Object { Test-Path -LiteralPath (Join-Path $_.FullName 'SKILL.md') -PathType Leaf }
 )
 $skills += @(
     Get-ChildItem -LiteralPath $root -Directory |
-        Where-Object { $_.Name -notin @('.git', 'overlays') } |
+        Where-Object { $_.Name -ne '.git' } |
         Where-Object { Test-Path -LiteralPath (Join-Path $_.FullName 'SKILL.md') -PathType Leaf }
 )
 $skills = @($skills | Sort-Object FullName -Unique)

@@ -1,6 +1,6 @@
 # 设计层规则（hf-ui-design 配套参考）
 
-本文件是 hf 工作流的"审美/设计方向"参考，配合 `hf-ui-design` 使用，放在 `coding/harness-flow/` 下，随 overlay 维护，不被上游同步覆盖。
+本文件是 hf 工作流的"审美/设计方向"参考，随 `hf-ui-design` 分发。
 
 ## 1. 美学方向库（先选方向，再写代码）
 
