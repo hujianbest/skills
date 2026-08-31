@@ -12,6 +12,7 @@
 | [coding/khazix/](coding/khazix) | 卡兹克技能 | 1 |
 | [coding/taste-skill/](coding/taste-skill) | 设计品味·工程向 | 2 |
 | [coding/archify/](coding/archify) | 架构/流程图表（tt-a1i） | 1 |
+| [coding/harness-flow/](coding/harness-flow) | HarnessFlow 工程主链（hujianbest） | 14 |
 | [coding/mattpocock/](coding/mattpocock) | mattpocock 工程技能家族（相互依赖，整组使用） | 12 |
 | [document/](document) | 文档、办公、知识 | 6 |
 | [document/obsidian-skills/](document/obsidian-skills) | Obsidian 知识管理（kepano） | 5 |
@@ -90,6 +91,25 @@
 | Skill | 简介 |
 |---|---|
 | archify | 架构/工作流/时序/数据流/生命周期图，自包含 HTML + 动效 |
+
+### coding/harness-flow/（14 个）— [hujianbest/harness-flow](https://github.com/hujianbest/harness-flow)
+
+| Skill | 简介 |
+|---|---|
+| hf-workflow | 主链入口，编排 idea → shipped 全流程 |
+| hf-grill-with-docs | 追问并沉淀领域文档 |
+| hf-grilling | 需求压力测试 |
+| hf-domain-modeling | 领域建模（CONTEXT/ADR） |
+| hf-to-spec | 对话转 spec |
+| hf-to-tickets | spec 拆票 |
+| hf-to-architecture | 架构设计 |
+| hf-to-product-architecture | 产品架构设计 |
+| hf-codebase-design | 代码库结构设计 |
+| hf-implement | 按 spec/tickets 实施 |
+| hf-tdd | 测试驱动开发 |
+| hf-review | 跨阶段评审 |
+| hf-ui-design | UI 设计 |
+| hf-ship | 交付/发布 |
 
 **mattpocock 家族**（12 个）：[grill-me](coding/mattpocock/grill-me)、[grill-with-docs](coding/mattpocock/grill-with-docs)、[grilling](coding/mattpocock/grilling)、[domain-modeling](coding/mattpocock/domain-modeling)、[to-spec](coding/mattpocock/to-spec)、[to-tickets](coding/mattpocock/to-tickets)、[implement](coding/mattpocock/implement)、[tdd](coding/mattpocock/tdd)、[code-review](coding/mattpocock/code-review)、[setup-matt-pocock-skills](coding/mattpocock/setup-matt-pocock-skills)、[teach](coding/mattpocock/teach)、[writing-for-agents](coding/mattpocock/writing-for-agents)。它们相互依赖（如 `grill-with-docs` 调用 `grilling` + `domain-modeling`，`implement` 调用 `tdd` + `code-review`），需整组安装，详见 [mattpocock/README.md](coding/mattpocock/README.md)。来源：[mattpocock/skills](https://github.com/mattpocock/skills)。
 
