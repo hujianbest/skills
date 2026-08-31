@@ -23,6 +23,17 @@
 
 将需要的 skill 目录复制到你的 agent 的 skills 目录（如 Codex 的 `.codex/skills`、Claude Code 的 `.claude/skills`），或在提示中直接引用对应路径。多数 skill 支持按需触发，无需手动开启。
 
+## 更新同步
+
+仓库内置上游同步脚本 [update-skills.sh](update-skills.sh)，来源映射见 [skills-sync.tsv](skills-sync.tsv)：
+
+- `./update-skills.sh --check`：只检查各来源是否有新提交，不改动文件（有更新时退出码为 2，适合定时任务）
+- `./update-skills.sh --sync`：同步有更新的来源（默认动作，只克隆变更的仓库）
+- `./update-skills.sh --commit`：同步后自动 git commit
+- `./update-skills.sh --push`：同步后 commit 并推送
+
+同步会保留每个来源目录中本地维护的 README，最近一次同步的 commit 记录在 `.skills-sync-state.tsv`。
+
 ## coding/ — 编程与工程
 
 按来源分组整理，避免混用；每组技能同源，详见对应子目录 README。

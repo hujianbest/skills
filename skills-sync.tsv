@@ -1,0 +1,19 @@
+local_dir	repo	ref	mode	source_paths	root_files
+coding/addyosmani	addyosmani/agent-skills	default	subdirs	skills/browser-testing-with-devtools,skills/code-review-and-quality,skills/code-simplification,skills/documentation-and-adrs,skills/doubt-driven-development,skills/frontend-ui-engineering,skills/incremental-implementation,skills/interview-me,skills/performance-optimization,skills/planning-and-task-breakdown,skills/source-driven-development,skills/spec-driven-development,skills/test-driven-development	
+coding/anthropics	anthropics/skills	default	subdirs	skills/discernment-nudge,skills/frontend-design,skills/mcp-builder,skills/skill-creator,skills/webapp-testing	
+coding/karpathy	multica-ai/andrej-karpathy-skills	default	subdirs	skills/karpathy-guidelines	
+coding/khazix	KKKKhazix/khazix-skills	default	subdirs	leader	
+coding/taste-skill	Leonxlnx/taste-skill	default	subdirs	skills/image-to-code-skill,skills/output-skill	
+coding/archify	tt-a1i/archify	default	dir	archify	
+mattpocock	mattpocock/skills	default	subdirs	skills/engineering/domain-modeling,skills/engineering/grill-with-docs,skills/engineering/implement,skills/engineering/to-spec,skills/engineering/to-tickets,skills/engineering/setup-matt-pocock-skills,skills/engineering/tdd,skills/engineering/code-review,skills/productivity/grill-me,skills/productivity/grilling,skills/productivity/teach,skills/productivity/writing-for-agents	
+document	anthropics/skills	default	subdirs	skills/doc-coauthoring,skills/docx,skills/pdf,skills/pptx,skills/xlsx	
+document	KKKKhazix/khazix-skills	default	subdirs	hv-analysis	
+document/obsidian-skills	kepano/obsidian-skills	default	subdirs	skills/defuddle,skills/json-canvas,skills/obsidian-bases,skills/obsidian-cli,skills/obsidian-markdown	LICENSE
+document/image-to-editable-ppt	ningzimu/image-to-editable-ppt-skill	default	dir	skills/image-to-editable-ppt	LICENSE
+image	anthropics/skills	default	subdirs	skills/algorithmic-art,skills/canvas-design	
+image	JimLiu/baoyu-skills	default	subdirs	skills/baoyu-article-illustrator,skills/baoyu-comic	
+image/huashu-design	alchaincyf/huashu-design	default	root		
+image/ian-xiaohei-illustrations	helloianneo/ian-xiaohei-illustrations	default	dir	ian-xiaohei-illustrations	
+image	Leonxlnx/taste-skill	default	subdirs	skills/brandkit,skills/brutalist-skill,skills/imagegen-frontend-mobile,skills/imagegen-frontend-web,skills/minimalist-skill,skills/redesign-skill,skills/soft-skill,skills/stitch-skill,skills/taste-skill	
+writing/human-writing	KKKKhazix/human-writing	default	dir	human-writing	
+writing/humanizer-zh	op7418/Humanizer-zh	default	root		
