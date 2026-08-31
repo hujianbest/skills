@@ -6,8 +6,9 @@
 
 | 目录 | 用途 | 数量 |
 |---|---|---|
-| [coding/](coding) | 编程、工程、开发 | 30 |
-| [document/](document) | 文档、办公、知识 | 7 |
+| [coding/](coding) | 编程、工程、开发 | 22 |
+| [mattpocock/](mattpocock) | mattpocock 工程技能家族（相互依赖，整组使用） | 12 |
+| [document/](document) | 文档、办公、知识 | 6 |
 | [image/](image) | 图片、设计、视觉 | 15 |
 | [writing/](writing) | 写作、内容创作 | 2 |
 
@@ -37,18 +38,12 @@
 | mcp-builder | 高质量 MCP server 开发指南 | 同上 |
 | skill-creator | 创建、优化并评估 skill | 同上 |
 | webapp-testing | Playwright 本地 Web 应用测试工具包 | 同上 |
-| domain-modeling | 建立并打磨项目领域模型 | [mattpocock/skills](https://github.com/mattpocock/skills) |
-| grill-with-docs | 追问的同时沉淀 ADR 与术语表 | 同上 |
-| grill-me | 不断追问以打磨方案/设计 | 同上 |
-| grilling | 对计划、决策进行压力测试 | 同上 |
-| implement | 按 spec / 任务单实施开发 | 同上 |
-| teach | 在项目内教会用户新技能或概念 | 同上 |
-| to-spec | 把当前对话转化为 spec 并发布 | 同上 |
-| to-tickets | 把计划拆成可追踪的 ticket | 同上 |
 | karpathy-guidelines | Karpathy 编码行为规范，减少常见 LLM 编码错误 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) |
 | leader | 把一句话想法拆成 agent 可执行的目标任务书 | [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) |
 | image-to-code-skill | 先生成设计图、再据此实现网站（Codex 向） | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) |
 | output-skill | 强制完整输出、禁止占位符（防截断） | 同上 |
+
+**mattpocock 家族**（12 个）：[grill-me](mattpocock/grill-me)、[grill-with-docs](mattpocock/grill-with-docs)、[grilling](mattpocock/grilling)、[domain-modeling](mattpocock/domain-modeling)、[to-spec](mattpocock/to-spec)、[to-tickets](mattpocock/to-tickets)、[implement](mattpocock/implement)、[tdd](mattpocock/tdd)、[code-review](mattpocock/code-review)、[setup-matt-pocock-skills](mattpocock/setup-matt-pocock-skills)、[teach](mattpocock/teach)、[writing-for-agents](mattpocock/writing-for-agents)。它们相互依赖（如 `grill-with-docs` 调用 `grilling` + `domain-modeling`，`implement` 调用 `tdd` + `code-review`），需整组安装，详见 [mattpocock/README.md](mattpocock/README.md)。来源：[mattpocock/skills](https://github.com/mattpocock/skills)。
 
 ## document/ — 文档与办公
 
@@ -60,7 +55,6 @@
 | pptx | PPT 创建、编辑与格式转换 | 同上 |
 | xlsx | 电子表格读写、清洗与格式化 | 同上 |
 | hv-analysis | 横纵分析法深度研究，产出 PDF 报告 | [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) |
-| writing-for-agents | 为 agent 编写文档（AGENTS.md / CLAUDE.md） | [mattpocock/skills](https://github.com/mattpocock/skills) |
 
 ## image/ — 图片与设计
 
