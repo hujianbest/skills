@@ -11,8 +11,11 @@
 | [coding/karpathy/](coding/karpathy) | Karpathy 编码规范 | 1 |
 | [coding/khazix/](coding/khazix) | 卡兹克技能 | 1 |
 | [coding/taste-skill/](coding/taste-skill) | 设计品味·工程向 | 2 |
+| [coding/archify/](coding/archify) | 架构/流程图表（tt-a1i） | 1 |
 | [mattpocock/](mattpocock) | mattpocock 工程技能家族（相互依赖，整组使用） | 12 |
 | [document/](document) | 文档、办公、知识 | 6 |
+| [document/obsidian-skills/](document/obsidian-skills) | Obsidian 知识管理（kepano） | 5 |
+| [document/image-to-editable-ppt/](document/image-to-editable-ppt) | 图片/PDF 转可编辑 PPT（ningzimu） | 1 |
 | [image/](image) | 图片、设计、视觉 | 15 |
 | [writing/](writing) | 写作、内容创作 | 2 |
 
@@ -71,6 +74,12 @@
 | image-to-code-skill | 先生成设计图、再据此实现网站（Codex 向） |
 | output-skill | 强制完整输出、禁止占位符（防截断） |
 
+### coding/archify/（1 个）— [tt-a1i/archify](https://github.com/tt-a1i/archify)
+
+| Skill | 简介 |
+|---|---|
+| archify | 架构/工作流/时序/数据流/生命周期图，自包含 HTML + 动效 |
+
 **mattpocock 家族**（12 个）：[grill-me](mattpocock/grill-me)、[grill-with-docs](mattpocock/grill-with-docs)、[grilling](mattpocock/grilling)、[domain-modeling](mattpocock/domain-modeling)、[to-spec](mattpocock/to-spec)、[to-tickets](mattpocock/to-tickets)、[implement](mattpocock/implement)、[tdd](mattpocock/tdd)、[code-review](mattpocock/code-review)、[setup-matt-pocock-skills](mattpocock/setup-matt-pocock-skills)、[teach](mattpocock/teach)、[writing-for-agents](mattpocock/writing-for-agents)。它们相互依赖（如 `grill-with-docs` 调用 `grilling` + `domain-modeling`，`implement` 调用 `tdd` + `code-review`），需整组安装，详见 [mattpocock/README.md](mattpocock/README.md)。来源：[mattpocock/skills](https://github.com/mattpocock/skills)。
 
 ## document/ — 文档与办公
@@ -83,6 +92,22 @@
 | pptx | PPT 创建、编辑与格式转换 | 同上 |
 | xlsx | 电子表格读写、清洗与格式化 | 同上 |
 | hv-analysis | 横纵分析法深度研究，产出 PDF 报告 | [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) |
+
+### document/obsidian-skills/（5 个）— [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)
+
+| Skill | 简介 |
+|---|---|
+| obsidian-cli | 通过 Obsidian CLI 操作库 |
+| obsidian-markdown | Obsidian 风格 Markdown 处理 |
+| obsidian-bases | Obsidian Bases 数据库操作 |
+| json-canvas | JSON Canvas 画布读写 |
+| defuddle | 网页内容清洗为可读 Markdown |
+
+### document/image-to-editable-ppt/（1 个）— [ningzimu/image-to-editable-ppt-skill](https://github.com/ningzimu/image-to-editable-ppt-skill)
+
+| Skill | 简介 |
+|---|---|
+| image-to-editable-ppt | 图片/PDF/图片版 PPT 转可编辑 PowerPoint |
 
 ## image/ — 图片与设计
 
