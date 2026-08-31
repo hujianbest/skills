@@ -6,7 +6,11 @@
 
 | 目录 | 用途 | 数量 |
 |---|---|---|
-| [coding/](coding) | 编程、工程、开发 | 22 |
+| [coding/addyosmani/](coding/addyosmani) | 工程技能（Addy Osmani） | 13 |
+| [coding/anthropics/](coding/anthropics) | 官方技能（Anthropic） | 5 |
+| [coding/karpathy/](coding/karpathy) | Karpathy 编码规范 | 1 |
+| [coding/khazix/](coding/khazix) | 卡兹克技能 | 1 |
+| [coding/taste-skill/](coding/taste-skill) | 设计品味·工程向 | 2 |
 | [mattpocock/](mattpocock) | mattpocock 工程技能家族（相互依赖，整组使用） | 12 |
 | [document/](document) | 文档、办公、知识 | 6 |
 | [image/](image) | 图片、设计、视觉 | 15 |
@@ -18,30 +22,54 @@
 
 ## coding/ — 编程与工程
 
-| Skill | 简介 | 来源 |
-|---|---|---|
-| browser-testing-with-devtools | 用 Chrome DevTools MCP 在真实浏览器中测试与调试 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
-| code-review-and-quality | 多维度代码审查 | 同上 |
-| code-simplification | 不改变行为地简化代码 | 同上 |
-| documentation-and-adrs | 架构决策记录与文档沉淀 | 同上 |
-| doubt-driven-development | 对每个非平凡决策做对抗式复查 | 同上 |
-| frontend-ui-engineering | 生产级、可访问、响应式 UI 构建 | 同上 |
-| incremental-implementation | 增量式交付变更 | 同上 |
-| interview-me | 通过提问挖掘真实需求 | 同上 |
-| performance-optimization | 前后端、查询、数据库性能优化 | 同上 |
-| planning-and-task-breakdown | 把需求拆解为有序任务 | 同上 |
-| source-driven-development | 以官方文档为依据进行开发 | 同上 |
-| spec-driven-development | 先写 spec 再编码 | 同上 |
-| test-driven-development | 测试驱动开发 | 同上 |
-| discernment-nudge | 交付重要答复前追加针对性追问 | [anthropics/skills](https://github.com/anthropics/skills) |
-| frontend-design | 有辨识度的前端视觉设计指导 | 同上 |
-| mcp-builder | 高质量 MCP server 开发指南 | 同上 |
-| skill-creator | 创建、优化并评估 skill | 同上 |
-| webapp-testing | Playwright 本地 Web 应用测试工具包 | 同上 |
-| karpathy-guidelines | Karpathy 编码行为规范，减少常见 LLM 编码错误 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) |
-| leader | 把一句话想法拆成 agent 可执行的目标任务书 | [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) |
-| image-to-code-skill | 先生成设计图、再据此实现网站（Codex 向） | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) |
-| output-skill | 强制完整输出、禁止占位符（防截断） | 同上 |
+按来源分组整理，避免混用；每组技能同源，详见对应子目录 README。
+
+### coding/addyosmani/（13 个）— [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
+
+| Skill | 简介 |
+|---|---|
+| browser-testing-with-devtools | 用 Chrome DevTools MCP 在真实浏览器中测试与调试 |
+| code-review-and-quality | 多维度代码审查 |
+| code-simplification | 不改变行为地简化代码 |
+| documentation-and-adrs | 架构决策记录与文档沉淀 |
+| doubt-driven-development | 对每个非平凡决策做对抗式复查 |
+| frontend-ui-engineering | 生产级、可访问、响应式 UI 构建 |
+| incremental-implementation | 增量式交付变更 |
+| interview-me | 通过提问挖掘真实需求 |
+| performance-optimization | 前后端、查询、数据库性能优化 |
+| planning-and-task-breakdown | 把需求拆解为有序任务 |
+| source-driven-development | 以官方文档为依据进行开发 |
+| spec-driven-development | 先写 spec 再编码 |
+| test-driven-development | 测试驱动开发 |
+
+### coding/anthropics/（5 个）— [anthropics/skills](https://github.com/anthropics/skills)
+
+| Skill | 简介 |
+|---|---|
+| discernment-nudge | 交付重要答复前追加针对性追问 |
+| frontend-design | 有辨识度的前端视觉设计指导 |
+| mcp-builder | 高质量 MCP server 开发指南 |
+| skill-creator | 创建、优化并评估 skill |
+| webapp-testing | Playwright 本地 Web 应用测试工具包 |
+
+### coding/karpathy/（1 个）— [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)
+
+| Skill | 简介 |
+|---|---|
+| karpathy-guidelines | Karpathy 编码行为规范，减少常见 LLM 编码错误 |
+
+### coding/khazix/（1 个）— [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills)
+
+| Skill | 简介 |
+|---|---|
+| leader | 把一句话想法拆成 agent 可执行的目标任务书 |
+
+### coding/taste-skill/（2 个）— [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
+
+| Skill | 简介 |
+|---|---|
+| image-to-code-skill | 先生成设计图、再据此实现网站（Codex 向） |
+| output-skill | 强制完整输出、禁止占位符（防截断） |
 
 **mattpocock 家族**（12 个）：[grill-me](mattpocock/grill-me)、[grill-with-docs](mattpocock/grill-with-docs)、[grilling](mattpocock/grilling)、[domain-modeling](mattpocock/domain-modeling)、[to-spec](mattpocock/to-spec)、[to-tickets](mattpocock/to-tickets)、[implement](mattpocock/implement)、[tdd](mattpocock/tdd)、[code-review](mattpocock/code-review)、[setup-matt-pocock-skills](mattpocock/setup-matt-pocock-skills)、[teach](mattpocock/teach)、[writing-for-agents](mattpocock/writing-for-agents)。它们相互依赖（如 `grill-with-docs` 调用 `grilling` + `domain-modeling`，`implement` 调用 `tdd` + `code-review`），需整组安装，详见 [mattpocock/README.md](mattpocock/README.md)。来源：[mattpocock/skills](https://github.com/mattpocock/skills)。
 
