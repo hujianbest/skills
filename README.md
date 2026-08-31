@@ -13,6 +13,7 @@
 | [coding/taste-skill/](coding/taste-skill) | 设计品味·工程向 | 2 |
 | [coding/archify/](coding/archify) | 架构/流程图表（tt-a1i） | 1 |
 | [coding/harness-flow/](coding/harness-flow) | HarnessFlow 工程主链（hujianbest） | 14 |
+| [coding/ui-ux-pro-max/](coding/ui-ux-pro-max) | UI/UX 设计智能（nextlevelbuilder） | 7 |
 | [coding/mattpocock/](coding/mattpocock) | mattpocock 工程技能家族（相互依赖，整组使用） | 12 |
 | [document/](document) | 文档、办公、知识 | 6 |
 | [document/obsidian-skills/](document/obsidian-skills) | Obsidian 知识管理（kepano） | 5 |
@@ -113,7 +114,19 @@
 | hf-ui-design | UI 设计 |
 | hf-ship | 交付/发布 |
 
-> **设计层（本地增强）**：`hf-ui-design` 已叠加设计层——先定美学方向（frontend-design）、taste 三旋钮校准、绿地创建 `DESIGN.md`、真实渲染截图评审闭环；桌面应用走 HIG/Fluent 平台规范。细则见 [design-rules.md](coding/harness-flow/design-rules.md)。该增强通过 overlay 维护，`--sync` 后自动重新应用。
+> **设计层（本地增强）**：`hf-ui-design` 已叠加设计层——先定美学方向（`ui-ux-pro-max` 风格匹配 + `frontend-design` 确认）、taste 三旋钮校准、绿地创建 `DESIGN.md`、真实渲染截图评审闭环；桌面应用走 HIG/Fluent 平台规范。细则见 [design-rules.md](coding/harness-flow/design-rules.md)。该增强通过 overlay 维护，`--sync` 后自动重新应用。
+
+### coding/ui-ux-pro-max/（7 个）— [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
+
+| Skill | 简介 |
+|---|---|
+| ui-ux-pro-max | 核心 UI/UX 设计智能（240+ 风格、字体配对、UX 指南） |
+| ui-styling | shadcn/ui + Tailwind 界面实现 |
+| design-system | 设计令牌与组件规范 |
+| design | 综合设计（品牌、图标、banner、演示） |
+| brand | 品牌视觉与一致性 |
+| banner-design | 社交/广告/网页 banner |
+| slides | 战略 HTML 演示 |
 
 **mattpocock 家族**（12 个）：[grill-me](coding/mattpocock/grill-me)、[grill-with-docs](coding/mattpocock/grill-with-docs)、[grilling](coding/mattpocock/grilling)、[domain-modeling](coding/mattpocock/domain-modeling)、[to-spec](coding/mattpocock/to-spec)、[to-tickets](coding/mattpocock/to-tickets)、[implement](coding/mattpocock/implement)、[tdd](coding/mattpocock/tdd)、[code-review](coding/mattpocock/code-review)、[setup-matt-pocock-skills](coding/mattpocock/setup-matt-pocock-skills)、[teach](coding/mattpocock/teach)、[writing-for-agents](coding/mattpocock/writing-for-agents)。它们相互依赖（如 `grill-with-docs` 调用 `grilling` + `domain-modeling`，`implement` 调用 `tdd` + `code-review`），需整组安装，详见 [mattpocock/README.md](coding/mattpocock/README.md)。来源：[mattpocock/skills](https://github.com/mattpocock/skills)。
 

@@ -16,6 +16,8 @@
 
 选定后：方向写入 `spec.md` UI 设计节与 `DESIGN.md`，评审以它为准。
 
+方向与风格匹配时调用本合集 `ui-ux-pro-max`（240+ 风格、127 字体配对、99 UX 指南，覆盖 web/mobile/desktop），让它先给出一致的设计系统再动工；`frontend-design` 负责最终方向与排版确认。
+
 ## 2. Taste 三旋钮（默认 3/2/3，1–5）
 
 - `DESIGN_VARIANCE`：布局/风格偏离度（1 保守 → 5 实验）

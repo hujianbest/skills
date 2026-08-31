@@ -19,7 +19,7 @@ description: UI 设计技能。绑定阶段: to-spec、implement、code-review�
 ### 1. 确定美学方向（禁止"默认模板脸"）
 
 - 任何 UI 特性先选定**单一明确的美学方向**：editorial（编辑风）、swiss/极简、brutalist、retro-futuristic、dark luxury、soft/极简暖色、neo-brutalism、有机形态 等，选一个并写进 `spec.md` 的 UI 设计节。
-- 调用本合集的 `frontend-design` 技能（官方版）做方向选择与真实排版配对（serif/sans/mono 的组合，拒绝只换一个无衬线字体）。
+- 调用本合集的 `ui-ux-pro-max` 技能做风格与设计系统匹配（240+ 风格库、字体配对、UX 指南，含桌面），再调用 `frontend-design` 技能（官方版）做方向确认与真实排版配对（serif/sans/mono 的组合，拒绝只换一个无衬线字体）。
 - 方向一旦确定，后续阶段禁止漂移回通用 SaaS 模板；评审时以此方向为基准。
 
 ### 2. 用 taste 旋钮校准

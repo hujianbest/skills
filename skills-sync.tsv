@@ -7,6 +7,7 @@ coding/taste-skill	Leonxlnx/taste-skill	default	subdirs	skills/image-to-code-ski
 coding/archify	tt-a1i/archify	default	dir	archify		
 coding/harness-flow	hujianbest/harness-flow	default	subdirs	skills/hf-to-tickets,skills/hf-ship,skills/hf-implement,skills/hf-to-architecture,skills/hf-review,skills/hf-domain-modeling,skills/hf-codebase-design,skills/hf-grill-with-docs,skills/hf-to-product-architecture,skills/hf-ui-design,skills/hf-grilling,skills/hf-to-spec,skills/hf-tdd,skills/hf-workflow	LICENSE	overlays/harness-flow
 coding/mattpocock	mattpocock/skills	default	subdirs	skills/engineering/domain-modeling,skills/engineering/grill-with-docs,skills/engineering/implement,skills/engineering/to-spec,skills/engineering/to-tickets,skills/engineering/setup-matt-pocock-skills,skills/engineering/tdd,skills/engineering/code-review,skills/productivity/grill-me,skills/productivity/grilling,skills/productivity/teach,skills/productivity/writing-for-agents		
+coding/ui-ux-pro-max	nextlevelbuilder/ui-ux-pro-max-skill	default	subdirs	.claude/skills/banner-design,.claude/skills/brand,.claude/skills/design,.claude/skills/design-system,.claude/skills/slides,.claude/skills/ui-styling,.claude/skills/ui-ux-pro-max	LICENSE	
 document	anthropics/skills	default	subdirs	skills/doc-coauthoring,skills/docx,skills/pdf,skills/pptx,skills/xlsx		
 document	KKKKhazix/khazix-skills	default	subdirs	hv-analysis		
 document/obsidian-skills	kepano/obsidian-skills	default	subdirs	skills/defuddle,skills/json-canvas,skills/obsidian-bases,skills/obsidian-cli,skills/obsidian-markdown	LICENSE	
