@@ -35,6 +35,8 @@
 
 同步会保留每个来源目录中本地维护的 README，最近一次同步的 commit 记录在 `.skills-sync-state.tsv`。
 
+部分来源带本地 **overlay**（见 [skills-sync.tsv](skills-sync.tsv) 第 7 列）：每次同步后会自动重新应用本地增强，不会被上游覆盖。目前 `coding/harness-flow` 带有设计层 overlay（`overlays/harness-flow/`）。
+
 ## coding/ — 编程与工程
 
 按来源分组整理，避免混用；每组技能同源，详见对应子目录 README。
@@ -110,6 +112,8 @@
 | hf-review | 跨阶段评审 |
 | hf-ui-design | UI 设计 |
 | hf-ship | 交付/发布 |
+
+> **设计层（本地增强）**：`hf-ui-design` 已叠加设计层——先定美学方向（frontend-design）、taste 三旋钮校准、绿地创建 `DESIGN.md`、真实渲染截图评审闭环；桌面应用走 HIG/Fluent 平台规范。细则见 [design-rules.md](coding/harness-flow/design-rules.md)。该增强通过 overlay 维护，`--sync` 后自动重新应用。
 
 **mattpocock 家族**（12 个）：[grill-me](coding/mattpocock/grill-me)、[grill-with-docs](coding/mattpocock/grill-with-docs)、[grilling](coding/mattpocock/grilling)、[domain-modeling](coding/mattpocock/domain-modeling)、[to-spec](coding/mattpocock/to-spec)、[to-tickets](coding/mattpocock/to-tickets)、[implement](coding/mattpocock/implement)、[tdd](coding/mattpocock/tdd)、[code-review](coding/mattpocock/code-review)、[setup-matt-pocock-skills](coding/mattpocock/setup-matt-pocock-skills)、[teach](coding/mattpocock/teach)、[writing-for-agents](coding/mattpocock/writing-for-agents)。它们相互依赖（如 `grill-with-docs` 调用 `grilling` + `domain-modeling`，`implement` 调用 `tdd` + `code-review`），需整组安装，详见 [mattpocock/README.md](coding/mattpocock/README.md)。来源：[mattpocock/skills](https://github.com/mattpocock/skills)。
 

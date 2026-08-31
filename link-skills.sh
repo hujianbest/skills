@@ -47,7 +47,7 @@ declare -A TARGET_PATHS=(
 )
 
 mapfile -t SKILLS < <(
-    find "$SCRIPT_DIR" -mindepth 2 -maxdepth 4 -name SKILL.md -not -path '*/.git/*' \
+    find "$SCRIPT_DIR" -mindepth 2 -maxdepth 4 -name SKILL.md -not -path '*/.git/*' -not -path '*/overlays/*' \
         | while read -r f; do dirname "$f"; done \
         | sort -u
 )

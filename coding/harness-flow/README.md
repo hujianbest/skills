@@ -20,3 +20,9 @@
 - **hf-ship**：交付/发布
 
 > 与 `coding/mattpocock` 同源但为独立维护版（含进度恢复、auto 模式等扩展），两者按需选用，勿混装同名技能。
+
+## 设计层（本地 overlay）
+
+`hf-ui-design` 叠加了设计层：UI 工作前先选美学方向（调用 `frontend-design`）、按 `taste-skill` 三旋钮校准、绿地创建 `DESIGN.md`；实现与评审强制走"真实渲染 → 截图 → 评审 → 回修"闭环；桌面应用按 HIG/Fluent 平台规范。
+
+细则见 [design-rules.md](design-rules.md)。该增强来自本仓库 `overlays/harness-flow/`，由 `update-skills.sh --sync` 在同步后自动重新应用。
