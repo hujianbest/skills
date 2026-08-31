@@ -5,7 +5,7 @@ coding/karpathy	multica-ai/andrej-karpathy-skills	default	subdirs	skills/karpath
 coding/khazix	KKKKhazix/khazix-skills	default	subdirs	leader	
 coding/taste-skill	Leonxlnx/taste-skill	default	subdirs	skills/image-to-code-skill,skills/output-skill	
 coding/archify	tt-a1i/archify	default	dir	archify	
-mattpocock	mattpocock/skills	default	subdirs	skills/engineering/domain-modeling,skills/engineering/grill-with-docs,skills/engineering/implement,skills/engineering/to-spec,skills/engineering/to-tickets,skills/engineering/setup-matt-pocock-skills,skills/engineering/tdd,skills/engineering/code-review,skills/productivity/grill-me,skills/productivity/grilling,skills/productivity/teach,skills/productivity/writing-for-agents	
+coding/mattpocock	mattpocock/skills	default	subdirs	skills/engineering/domain-modeling,skills/engineering/grill-with-docs,skills/engineering/implement,skills/engineering/to-spec,skills/engineering/to-tickets,skills/engineering/setup-matt-pocock-skills,skills/engineering/tdd,skills/engineering/code-review,skills/productivity/grill-me,skills/productivity/grilling,skills/productivity/teach,skills/productivity/writing-for-agents	
 document	anthropics/skills	default	subdirs	skills/doc-coauthoring,skills/docx,skills/pdf,skills/pptx,skills/xlsx	
 document	KKKKhazix/khazix-skills	default	subdirs	hv-analysis	
 document/obsidian-skills	kepano/obsidian-skills	default	subdirs	skills/defuddle,skills/json-canvas,skills/obsidian-bases,skills/obsidian-cli,skills/obsidian-markdown	LICENSE

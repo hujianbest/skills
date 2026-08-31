@@ -12,7 +12,7 @@
 | [coding/khazix/](coding/khazix) | 卡兹克技能 | 1 |
 | [coding/taste-skill/](coding/taste-skill) | 设计品味·工程向 | 2 |
 | [coding/archify/](coding/archify) | 架构/流程图表（tt-a1i） | 1 |
-| [mattpocock/](mattpocock) | mattpocock 工程技能家族（相互依赖，整组使用） | 12 |
+| [coding/mattpocock/](coding/mattpocock) | mattpocock 工程技能家族（相互依赖，整组使用） | 12 |
 | [document/](document) | 文档、办公、知识 | 6 |
 | [document/obsidian-skills/](document/obsidian-skills) | Obsidian 知识管理（kepano） | 5 |
 | [document/image-to-editable-ppt/](document/image-to-editable-ppt) | 图片/PDF 转可编辑 PPT（ningzimu） | 1 |
@@ -91,7 +91,7 @@
 |---|---|
 | archify | 架构/工作流/时序/数据流/生命周期图，自包含 HTML + 动效 |
 
-**mattpocock 家族**（12 个）：[grill-me](mattpocock/grill-me)、[grill-with-docs](mattpocock/grill-with-docs)、[grilling](mattpocock/grilling)、[domain-modeling](mattpocock/domain-modeling)、[to-spec](mattpocock/to-spec)、[to-tickets](mattpocock/to-tickets)、[implement](mattpocock/implement)、[tdd](mattpocock/tdd)、[code-review](mattpocock/code-review)、[setup-matt-pocock-skills](mattpocock/setup-matt-pocock-skills)、[teach](mattpocock/teach)、[writing-for-agents](mattpocock/writing-for-agents)。它们相互依赖（如 `grill-with-docs` 调用 `grilling` + `domain-modeling`，`implement` 调用 `tdd` + `code-review`），需整组安装，详见 [mattpocock/README.md](mattpocock/README.md)。来源：[mattpocock/skills](https://github.com/mattpocock/skills)。
+**mattpocock 家族**（12 个）：[grill-me](coding/mattpocock/grill-me)、[grill-with-docs](coding/mattpocock/grill-with-docs)、[grilling](coding/mattpocock/grilling)、[domain-modeling](coding/mattpocock/domain-modeling)、[to-spec](coding/mattpocock/to-spec)、[to-tickets](coding/mattpocock/to-tickets)、[implement](coding/mattpocock/implement)、[tdd](coding/mattpocock/tdd)、[code-review](coding/mattpocock/code-review)、[setup-matt-pocock-skills](coding/mattpocock/setup-matt-pocock-skills)、[teach](coding/mattpocock/teach)、[writing-for-agents](coding/mattpocock/writing-for-agents)。它们相互依赖（如 `grill-with-docs` 调用 `grilling` + `domain-modeling`，`implement` 调用 `tdd` + `code-review`），需整组安装，详见 [mattpocock/README.md](coding/mattpocock/README.md)。来源：[mattpocock/skills](https://github.com/mattpocock/skills)。
 
 ## document/ — 文档与办公
 
