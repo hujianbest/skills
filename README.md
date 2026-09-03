@@ -14,6 +14,7 @@
 | [coding/archify/](coding/archify) | 架构/流程图表（tt-a1i） | 1 |
 | [coding/harness-flow/](coding/harness-flow) | HarnessFlow 工程主链（hujianbest） | 14 |
 | [coding/ui-ux-pro-max/](coding/ui-ux-pro-max) | UI/UX 设计智能（nextlevelbuilder） | 7 |
+| [coding/ponytail/](coding/ponytail) | 极简编码纪律（DietrichGebert） | 6 |
 | [coding/mattpocock/](coding/mattpocock) | mattpocock 工程技能家族（相互依赖，整组使用） | 12 |
 | [document/](document) | 文档、办公、知识 | 6 |
 | [document/obsidian-skills/](document/obsidian-skills) | Obsidian 知识管理（kepano） | 5 |
@@ -125,6 +126,17 @@
 | brand | 品牌视觉与一致性 |
 | banner-design | 社交/广告/网页 banner |
 | slides | 战略 HTML 演示 |
+
+### coding/ponytail/（6 个）— [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)
+
+| Skill | 简介 |
+|---|---|
+| ponytail | 主技能：强制最省的最小可用方案（lite/full/ultra） |
+| ponytail-review | 用极简标准审查代码 |
+| ponytail-audit | 审计存量过度工程 |
+| ponytail-debt | 识别并偿还过度工程债 |
+| ponytail-gain | 量化极简化收益 |
+| ponytail-help | 帮助与路由 |
 
 **mattpocock 家族**（12 个）：[grill-me](coding/mattpocock/grill-me)、[grill-with-docs](coding/mattpocock/grill-with-docs)、[grilling](coding/mattpocock/grilling)、[domain-modeling](coding/mattpocock/domain-modeling)、[to-spec](coding/mattpocock/to-spec)、[to-tickets](coding/mattpocock/to-tickets)、[implement](coding/mattpocock/implement)、[tdd](coding/mattpocock/tdd)、[code-review](coding/mattpocock/code-review)、[setup-matt-pocock-skills](coding/mattpocock/setup-matt-pocock-skills)、[teach](coding/mattpocock/teach)、[writing-for-agents](coding/mattpocock/writing-for-agents)。它们相互依赖（如 `grill-with-docs` 调用 `grilling` + `domain-modeling`，`implement` 调用 `tdd` + `code-review`），需整组安装，详见 [mattpocock/README.md](coding/mattpocock/README.md)。来源：[mattpocock/skills](https://github.com/mattpocock/skills)。
 
