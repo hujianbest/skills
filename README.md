@@ -15,11 +15,12 @@
 | [coding/harness-flow/](coding/harness-flow) | HarnessFlow 工程主链（hujianbest） | 14 |
 | [coding/ui-ux-pro-max/](coding/ui-ux-pro-max) | UI/UX 设计智能（nextlevelbuilder） | 7 |
 | [coding/mattpocock/](coding/mattpocock) | mattpocock 工程技能家族（相互依赖，整组使用） | 12 |
-| [document/](document) | 文档、办公、知识 | 6 |
+| [coding/superpowers/](coding/superpowers) | Superpowers 设计先行（obra） | 2 |
+| [document/](document) | 文档、办公、知识 | 7 |
 | [document/obsidian-skills/](document/obsidian-skills) | Obsidian 知识管理（kepano） | 5 |
 | [document/image-to-editable-ppt/](document/image-to-editable-ppt) | 图片/PDF 转可编辑 PPT（ningzimu） | 1 |
 | [image/](image) | 图片、设计、视觉 | 15 |
-| [writing/](writing) | 写作、内容创作 | 2 |
+| [writing/](writing) | 写作、内容创作 | 3 |
 
 ## 使用方式
 
@@ -35,6 +36,21 @@
 - `./update-skills.sh --push`：同步后 commit 并推送
 
 同步会保留每个来源目录中本地维护的 README，最近一次同步的 commit 记录在 `.skills-sync-state.tsv`。
+
+## 设计文档怎么选
+
+AI 默认写出的设计文档容易又长又空：章节填满、实现细节淹没决策、审稿人读不下去。社区里高认可的做法不是再套一份 20 节模板，而是**先把问题和取舍写清楚**。
+
+| 场景 | Skill | 说明 |
+|---|---|---|
+| 动手前把想法变成可批准的设计 | [brainstorming](coding/superpowers) | Superpowers，约 33 万次安装。一次一问、分段确认；没批准前不写代码。 |
+| 写给人审的设计文档 / RFC | [write-design-docs](document/write-design-docs) | Malte Ubl《Design Docs at Google》：决策与取舍，不是实现手册。 |
+| 设计通过后拆成可执行计划 | [writing-plans](coding/superpowers) | 约 23 万次安装。精确路径、完整代码、禁止 TBD。 |
+| 文风去晦涩 | [writing-clearly-and-concisely](writing/writing-clearly-and-concisely) | Strunk 规则：主动语态、具体、删废话。 |
+| 访谈压力测试 + 术语表 / ADR | [grill-with-docs](coding/mattpocock) | 已有。skills.sh 文档类安装量最高（约 82 万）。 |
+| 记录难逆转的决策 | [documentation-and-adrs](coding/addyosmani) | 已有。文档决策本身，不是再写一篇大而全的 spec。 |
+
+调研过但**没有收录**的：`tech-leads-club/agent-skills` 的 `technical-design-doc-creator`（约 5k 星，20 节强制模板，更容易写出更难读的文档）。
 
 ## coding/ — 编程与工程
 
@@ -128,6 +144,15 @@
 
 **mattpocock 家族**（12 个）：[grill-me](coding/mattpocock/grill-me)、[grill-with-docs](coding/mattpocock/grill-with-docs)、[grilling](coding/mattpocock/grilling)、[domain-modeling](coding/mattpocock/domain-modeling)、[to-spec](coding/mattpocock/to-spec)、[to-tickets](coding/mattpocock/to-tickets)、[implement](coding/mattpocock/implement)、[tdd](coding/mattpocock/tdd)、[code-review](coding/mattpocock/code-review)、[setup-matt-pocock-skills](coding/mattpocock/setup-matt-pocock-skills)、[teach](coding/mattpocock/teach)、[writing-for-agents](coding/mattpocock/writing-for-agents)。它们相互依赖（如 `grill-with-docs` 调用 `grilling` + `domain-modeling`，`implement` 调用 `tdd` + `code-review`），需整组安装，详见 [mattpocock/README.md](coding/mattpocock/README.md)。来源：[mattpocock/skills](https://github.com/mattpocock/skills)。
 
+### coding/superpowers/（2 个）— [obra/superpowers](https://github.com/obra/superpowers)
+
+| Skill | 简介 |
+|---|---|
+| brainstorming | 动手前把想法澄清成可批准的设计，architectural 路径落盘 spec |
+| writing-plans | 已批准设计拆成无占位符的实现计划 |
+
+只收录设计文档相关两个技能；执行层（TDD、子 agent、review）未收录，详见 [superpowers/README.md](coding/superpowers/README.md)。
+
 ## document/ — 文档与办公
 
 | Skill | 简介 | 来源 |
@@ -138,6 +163,7 @@
 | pptx | PPT 创建、编辑与格式转换 | 同上 |
 | xlsx | 电子表格读写、清洗与格式化 | 同上 |
 | hv-analysis | 横纵分析法深度研究，产出 PDF 报告 | [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) |
+| write-design-docs | Google 风格设计文档：决策与取舍，不是实现手册 | [pproenca/dot-skills](https://github.com/pproenca/dot-skills) |
 
 ### document/obsidian-skills/（5 个）— [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)
 
@@ -183,6 +209,7 @@
 |---|---|---|
 | human-writing | 活人感中文写作与改稿 | [KKKKhazix/human-writing](https://github.com/KKKKhazix/human-writing) |
 | humanizer-zh | 去除文本中的 AI 写作痕迹 | [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) |
+| writing-clearly-and-concisely | Strunk 文风：主动、具体、删废话 | [obra/the-elements-of-style](https://github.com/obra/the-elements-of-style) |
 
 ## 说明
 
