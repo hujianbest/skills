@@ -21,6 +21,7 @@
 | [document/image-to-editable-ppt/](document/image-to-editable-ppt) | 图片/PDF 转可编辑 PPT（ningzimu） | 1 |
 | [image/](image) | 图片、设计、视觉 | 15 |
 | [writing/](writing) | 写作、内容创作 | 2 |
+| [books/](books) | 书籍知识库 | 1 |
 
 ## 使用方式
 
@@ -195,6 +196,12 @@
 |---|---|---|
 | human-writing | 活人感中文写作与改稿 | [KKKKhazix/human-writing](https://github.com/KKKKhazix/human-writing) |
 | humanizer-zh | 去除文本中的 AI 写作痕迹 | [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) |
+
+## books/ — 书籍知识库
+
+| Skill | 简介 | 来源 |
+|---|---|---|
+| ousterhout-aposd | 《软件设计的哲学》整书知识库：深模块、复杂度、注释、命名等，支持按章节查询 | 本地 ~/.hermes |
 
 ## 说明
 
