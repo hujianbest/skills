@@ -1,5 +1,5 @@
 ---
-name: ousterhout-aposd
+name: philosophy-of-software-design
 description: "Knowledge base from \"A Philosophy of Software Design (软件设计的哲学)\" by John Ousterhout. Use when applying Ousterhout's frameworks for complexity reduction, deep modules, information hiding, strategic programming, interface design, error handling, comments, naming, or reviewing/redesigning code against his red flags."
 ---
 

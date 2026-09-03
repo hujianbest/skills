@@ -1,6 +1,6 @@
-# ousterhout-aposd（书籍知识库）
+# philosophy-of-software-design（书籍知识库）
 
-来源：本地 `~/.hermes/skills/software-development/ousterhout-aposd` —— John Ousterhout《A Philosophy of Software Design（软件设计的哲学）》整书知识库技能。
+来源：本地 `~/.hermes/skills/software-development/philosophy-of-software-design` —— John Ousterhout《A Philosophy of Software Design（软件设计的哲学）》整书知识库技能。
 
 ## 内容
 

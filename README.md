@@ -201,7 +201,7 @@
 
 | Skill | 简介 | 来源 |
 |---|---|---|
-| ousterhout-aposd | 《软件设计的哲学》整书知识库：深模块、复杂度、注释、命名等，支持按章节查询 | 本地 ~/.hermes |
+| [philosophy-of-software-design](books/philosophy-of-software-design) | 《软件设计的哲学》整书知识库：深模块、复杂度、注释、命名等，支持按章节查询 | 本地 ~/.hermes |
 
 ## 说明
 
