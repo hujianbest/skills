@@ -1,7 +1,7 @@
 # GitHub Skills 高质量仓库清单
 
 > 记录 GitHub 上高质量的 AI Agent Skills 相关仓库，便于快速查找和收藏。
-> 来源：个人加星仓库筛选（2026-08-18，2026-09-12 增补），已收录 17 个。
+> 来源：以个人加星仓库为主（2026-08-18 初筛，后续增补），已收录 18 个。
 
 ## 官方 / 权威合集
 
@@ -21,6 +21,7 @@
 - [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) ⭐ 20k — 卡兹克开源的 AI Skills 合集，支持 Claude Code、Codex 等。
 - [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) ⭐ 16k — Humanizer 汉化版，消除文本中的 AI 生成痕迹。
 - [KKKKhazix/human-writing](https://github.com/KKKKhazix/human-writing) ⭐ 2.8k — 让中文 AI 写作像具体的人在说话。
+- [agricidaniel/claude-blog](https://github.com/agricidaniel/claude-blog) ⭐ 2.1k — Claude Code 博客技能套件：32 个子技能，Google 排名 + AI 引用双优化。
 
 ## 设计 / PPT / UI
 

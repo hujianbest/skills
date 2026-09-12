@@ -20,7 +20,8 @@
 | [document/obsidian-skills/](document/obsidian-skills) | Obsidian 知识管理（kepano） | 5 |
 | [document/image-to-editable-ppt/](document/image-to-editable-ppt) | 图片/PDF 转可编辑 PPT（ningzimu） | 1 |
 | [image/](image) | 图片、设计、视觉 | 15 |
-| [writing/](writing) | 写作、内容创作 | 3 |
+| [writing/](writing) | 写作、内容创作 | 35 |
+| [writing/claude-blog/](writing/claude-blog) | 全生命周期博客引擎（AgriciDaniel） | 32 |
 | [books/](books) | 书籍知识库 | 1 |
 | [meta/vercel-labs/](meta/vercel-labs) | 技能生态发现与安装（Vercel Labs） | 1 |
 
@@ -198,6 +199,20 @@
 | human-writing | 活人感中文写作与改稿 | [KKKKhazix/human-writing](https://github.com/KKKKhazix/human-writing) |
 | humanizer-zh | 去除文本中的 AI 写作痕迹 | [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) |
 | [coding-blog-writing](writing/coding-blog-writing) | 《一点写代码的心得》系列技术随笔：吴军式从容笔调、生活化降维类比、由技入道收尾；附风格指南、样章与自检脚本 | 本地自制 |
+
+### writing/claude-blog/（32 个）— [agricidaniel/claude-blog](https://github.com/agricidaniel/claude-blog)
+
+全生命周期博客引擎，主打"Google 排名 + AI 引用"双优化。主入口 **blog** 按意图路由到其余 31 个子技能，技能间存在依赖（如 `blog-multilingual` → `blog-localize` → `blog-translate`），需整组保留。
+
+| 分组 | Skill |
+|---|---|
+| 主入口 | blog |
+| 策略规划 | blog-strategy、blog-cluster、blog-calendar、blog-cannibalization、blog-brief、blog-outline、blog-persona、blog-brand、blog-style、blog-discourse |
+| 写作改写 | blog-write、blog-rewrite、blog-repurpose、blog-translate、blog-localize、blog-multilingual、blog-locale-audit |
+| SEO 质量 | blog-analyze、blog-audit、blog-seo-check、blog-geo、blog-schema、blog-factcheck、blog-decay、blog-google、blog-taxonomy |
+| 素材多媒体 | blog-image、blog-chart、blog-audio、blog-notebooklm、blog-flow |
+
+需要 Python 3.11+ 才能用评分脚本；`blog-google`、`blog-image`、`blog-audio`、`blog-notebooklm` 需要 Google / Gemini / NotebookLM 凭证。详见 [claude-blog/README.md](writing/claude-blog/README.md)。
 
 ## books/ — 书籍知识库
 
