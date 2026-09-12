@@ -20,7 +20,7 @@
 | [document/obsidian-skills/](document/obsidian-skills) | Obsidian 知识管理（kepano） | 5 |
 | [document/image-to-editable-ppt/](document/image-to-editable-ppt) | 图片/PDF 转可编辑 PPT（ningzimu） | 1 |
 | [image/](image) | 图片、设计、视觉 | 15 |
-| [writing/](writing) | 写作、内容创作 | 2 |
+| [writing/](writing) | 写作、内容创作 | 3 |
 | [books/](books) | 书籍知识库 | 1 |
 | [meta/vercel-labs/](meta/vercel-labs) | 技能生态发现与安装（Vercel Labs） | 1 |
 
@@ -197,6 +197,7 @@
 |---|---|---|
 | human-writing | 活人感中文写作与改稿 | [KKKKhazix/human-writing](https://github.com/KKKKhazix/human-writing) |
 | humanizer-zh | 去除文本中的 AI 写作痕迹 | [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) |
+| [coding-blog-writing](writing/coding-blog-writing) | 《一点写代码的心得》系列技术随笔：吴军式从容笔调、生活化降维类比、由技入道收尾；附风格指南、样章与自检脚本 | 本地自制 |
 
 ## books/ — 书籍知识库
 
