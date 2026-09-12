@@ -1,6 +1,6 @@
 # Skills 合集
 
-个人日常使用的 AI Agent Skills 集合，从 GitHub 加星仓库中精选，按用途分为四类。每个 skill 都是标准 `SKILL.md` 结构（含配套 references / scripts / assets），可被 Codex、Claude Code 等支持 Agent Skills 规范的 agent 直接使用。
+个人日常使用的 AI Agent Skills 集合，从 GitHub 加星仓库中精选，按用途分层组织（coding / document / image / writing / books / meta）。每个 skill 都是标准 `SKILL.md` 结构（含配套 references / scripts / assets），可被 Codex、Claude Code 等支持 Agent Skills 规范的 agent 直接使用。
 
 ## 目录结构
 
@@ -22,6 +22,7 @@
 | [image/](image) | 图片、设计、视觉 | 15 |
 | [writing/](writing) | 写作、内容创作 | 2 |
 | [books/](books) | 书籍知识库 | 1 |
+| [meta/vercel-labs/](meta/vercel-labs) | 技能生态发现与安装（Vercel Labs） | 1 |
 
 ## 使用方式
 
@@ -202,6 +203,12 @@
 | Skill | 简介 | 来源 |
 |---|---|---|
 | [philosophy-of-software-design](books/philosophy-of-software-design) | 《软件设计的哲学》整书知识库：深模块、复杂度、注释、命名等，支持按章节查询 | 本地 ~/.hermes |
+
+## meta/ — 技能生态（元技能）
+
+| Skill | 简介 | 来源 |
+|---|---|---|
+| [find-skills](meta/vercel-labs/find-skills) | 在 skills.sh 生态里按需求检索、评估并安装技能（`npx skills find/add`），无合适技能时给出自建建议 | [vercel-labs/skills](https://github.com/vercel-labs/skills) |
 
 ## 说明
 

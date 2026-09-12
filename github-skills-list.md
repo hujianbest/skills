@@ -1,7 +1,7 @@
 # GitHub Skills 高质量仓库清单
 
 > 记录 GitHub 上高质量的 AI Agent Skills 相关仓库，便于快速查找和收藏。
-> 来源：个人加星仓库筛选（2026-08-18），已收录 16 个。
+> 来源：个人加星仓库筛选（2026-08-18，2026-09-12 增补），已收录 17 个。
 
 ## 官方 / 权威合集
 
@@ -9,6 +9,7 @@
 - [mattpocock/skills](https://github.com/mattpocock/skills) ⭐ 221k — Skills for Real Engineers，来自 Matt Pocock 的实战 .agents 目录。
 - [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) ⭐ 88k — Addy Osmani 的生产级工程技能集。
 - [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) ⭐ 25k — 宝玉的 skills 合集。
+- [vercel-labs/skills](https://github.com/vercel-labs/skills) ⭐ 31k — Vercel 官方开放技能工具仓库（`npx skills` CLI），含 find-skills 等技能；生态入口 [skills.sh](https://skills.sh/)。
 
 ## 开发方法论 / 框架
 

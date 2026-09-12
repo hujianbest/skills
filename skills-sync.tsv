@@ -20,3 +20,4 @@ image/ian-xiaohei-illustrations	helloianneo/ian-xiaohei-illustrations	default	di
 image	Leonxlnx/taste-skill	default	subdirs	skills/brandkit,skills/brutalist-skill,skills/imagegen-frontend-mobile,skills/imagegen-frontend-web,skills/minimalist-skill,skills/redesign-skill,skills/soft-skill,skills/stitch-skill,skills/taste-skill	
 writing/human-writing	KKKKhazix/human-writing	default	dir	human-writing	
 writing/humanizer-zh	op7418/Humanizer-zh	default	root		
+meta/vercel-labs/find-skills	vercel-labs/skills	default	dir	skills/find-skills	
