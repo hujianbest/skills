@@ -198,7 +198,7 @@
 |---|---|---|
 | human-writing | 活人感中文写作与改稿 | [KKKKhazix/human-writing](https://github.com/KKKKhazix/human-writing) |
 | humanizer-zh | 去除文本中的 AI 写作痕迹 | [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) |
-| [coding-blog-writing](writing/coding-blog-writing) | 《一点写代码的心得》系列技术随笔：吴军式从容笔调、生活化降维类比、由技入道收尾；附风格指南、样章与自检脚本 | 本地自制 |
+| [coding-blog-writing](writing/coding-blog-writing) | 《一点写代码的心得》系列技术长篇随笔：作者原声（大厂老兵 + 独立探索者）、大白话透视工程本质、结构化层级与金句升华；附风格指南、隐喻库、样章与自检脚本 | 本地自制 |
 
 ### writing/claude-blog/（32 个）— [agricidaniel/claude-blog](https://github.com/agricidaniel/claude-blog)
 
