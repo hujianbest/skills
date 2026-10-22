@@ -12,7 +12,6 @@
 | [coding/khazix/](coding/khazix) | 卡兹克技能 | 1 |
 | [coding/taste-skill/](coding/taste-skill) | 设计品味·工程向 | 2 |
 | [coding/archify/](coding/archify) | 架构/流程图表（tt-a1i） | 1 |
-| [coding/harness-flow/](coding/harness-flow) | HarnessFlow 工程主链（hujianbest） | 14 |
 | [coding/ui-ux-pro-max/](coding/ui-ux-pro-max) | UI/UX 设计智能（nextlevelbuilder） | 7 |
 | [coding/ponytail/](coding/ponytail) | 极简编码纪律（DietrichGebert） | 6 |
 | [coding/mattpocock/](coding/mattpocock) | mattpocock 工程技能家族（相互依赖，整组使用） | 12 |
@@ -96,27 +95,6 @@
 | Skill | 简介 |
 |---|---|
 | archify | 架构/工作流/时序/数据流/生命周期图，自包含 HTML + 动效 |
-
-### coding/harness-flow/（14 个）— [hujianbest/harness-flow](https://github.com/hujianbest/harness-flow)
-
-| Skill | 简介 |
-|---|---|
-| hf-workflow | 主链入口，编排 idea → shipped 全流程 |
-| hf-grill-with-docs | 追问并沉淀领域文档 |
-| hf-grilling | 需求压力测试 |
-| hf-domain-modeling | 领域建模（CONTEXT/ADR） |
-| hf-to-spec | 对话转 spec |
-| hf-to-tickets | spec 拆票 |
-| hf-to-architecture | 架构设计 |
-| hf-to-product-architecture | 产品架构设计 |
-| hf-codebase-design | 代码库结构设计 |
-| hf-implement | 按 spec/tickets 实施 |
-| hf-tdd | 测试驱动开发 |
-| hf-review | 跨阶段评审 |
-| hf-ui-design | UI 设计 |
-| hf-ship | 交付/发布 |
-
-> **设计层**：`hf-ui-design` 内置设计层（维护在 harness-flow 上游仓库，`--sync` 自动跟随）——先定美学方向（`ui-ux-pro-max` 风格匹配 + `frontend-design` 确认）、taste 三旋钮校准、绿地创建 `DESIGN.md`、真实渲染截图评审闭环；桌面应用走 HIG/Fluent 平台规范。细则见 [design-rules.md](coding/harness-flow/hf-ui-design/references/design-rules.md)。
 
 ### coding/ui-ux-pro-max/（7 个）— [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
 

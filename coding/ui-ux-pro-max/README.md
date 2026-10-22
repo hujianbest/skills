@@ -11,5 +11,3 @@
 - **brand**：品牌视觉与一致性
 - **banner-design**：社交/广告/网页 banner 设计
 - **slides**：战略 HTML 演示
-
-> 作为 hf 设计层的一部分：`hf-ui-design` 在选美学方向时调用 `ui-ux-pro-max` 做风格/设计系统匹配。
